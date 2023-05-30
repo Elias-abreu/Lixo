@@ -7,7 +7,8 @@ public static class Conexao
     {
         try
         {
-            string strconexao = "server=localhosst;uid=root;pwd=abreu;database=bancoTeste";
+            //Alteração para verificar git e github
+            string strconexao = "server=localhost;uid=root;pwd=abreu;database=bancoTeste";
             conexao = new MySqlConnection(strconexao);
             conexao.Open();
         }
