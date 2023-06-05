@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             label1 = new Label();
             label2 = new Label();
             lb_nome = new TextBox();
@@ -57,7 +58,9 @@
             columnHeader2 = new ColumnHeader();
             columnHeader3 = new ColumnHeader();
             columnHeader4 = new ColumnHeader();
+            errorProvider_nome = new ErrorProvider(components);
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)errorProvider_nome).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -340,6 +343,10 @@
             columnHeader4.Text = "Telefone";
             columnHeader4.Width = 90;
             // 
+            // errorProvider_nome
+            // 
+            errorProvider_nome.ContainerControl = this;
+            // 
             // HelloWold
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -353,6 +360,7 @@
             Load += Form1_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)errorProvider_nome).EndInit();
             ResumeLayout(false);
         }
 
@@ -388,5 +396,6 @@
         private Button button1;
         private MaskedTextBox lb_cpf;
         private MaskedTextBox lb_telefone;
+        private ErrorProvider errorProvider_nome;
     }
 }

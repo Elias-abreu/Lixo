@@ -47,8 +47,6 @@ namespace Lixo.dao
                 //throw new Exception(ex.Message);
                 return false;
             }
-
-
         }
 
         public bool Altualizar(Cliente cliente)

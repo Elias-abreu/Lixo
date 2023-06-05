@@ -33,11 +33,14 @@
             // 
             // button1
             // 
-            button1.Location = new Point(22, 52);
+            button1.BackgroundImage = Properties.Resources.icons8_vencedor_48;
+            button1.BackgroundImageLayout = ImageLayout.None;
+            button1.Location = new Point(12, 23);
             button1.Name = "button1";
-            button1.Size = new Size(211, 57);
+            button1.Size = new Size(112, 57);
             button1.TabIndex = 0;
-            button1.Text = "Cadastro_Cliente";
+            button1.Text = "Cliente";
+            button1.TextAlign = ContentAlignment.MiddleRight;
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
@@ -45,10 +48,13 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(516, 243);
+            BackgroundImage = Properties.Resources.bmi;
+            ClientSize = new Size(516, 502);
             Controls.Add(button1);
             Name = "Form_Menu";
-            Text = "Form_Menu";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Menu";
+            Load += Form_Menu_Load;
             ResumeLayout(false);
         }
 

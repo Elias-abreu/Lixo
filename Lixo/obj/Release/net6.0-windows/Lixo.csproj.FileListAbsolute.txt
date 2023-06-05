@@ -28,3 +28,4 @@ C:\Users\elias\source\repos\Lixo\Lixo\obj\Release\net6.0-windows\refint\Lixo.dll
 C:\Users\elias\source\repos\Lixo\Lixo\obj\Release\net6.0-windows\Lixo.pdb
 C:\Users\elias\source\repos\Lixo\Lixo\obj\Release\net6.0-windows\Lixo.genruntimeconfig.cache
 C:\Users\elias\source\repos\Lixo\Lixo\obj\Release\net6.0-windows\ref\Lixo.dll
+C:\Users\elias\source\repos\Lixo\Lixo\obj\Release\net6.0-windows\Lixo.Properties.Resources.resources

@@ -148,6 +148,7 @@ namespace Lixo
 
         private void button6_Click(object sender, EventArgs e)
         {
+            errorProvider_nome.SetError(lb_nome, "Digite seu nome");
             lb_id.Text = "";
             lb_nome.Text = "";
             lb_email.Text = "";
@@ -158,6 +159,7 @@ namespace Lixo
             jb_atualizar.Visible = false;
             jb_salvar.Visible = true;
             lb_nome.Focus();
+
         }
 
         private void button1_Click_1(object sender, EventArgs e)

@@ -25,7 +25,12 @@ namespace Lixo
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
+
+        }
+
+        private void Form_Menu_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
