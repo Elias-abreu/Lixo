@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Lixo
 {
+    /*Git pull e git Clone*/
     internal class Cliente
     {
         public int Id_cliente { get; set; }
