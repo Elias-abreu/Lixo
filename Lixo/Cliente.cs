@@ -9,6 +9,8 @@ namespace Lixo
 {
     /*Git pull e git Clone*/
     /* Git push e commit*/
+
+    /*Git add. git commit e git push*/
     internal class Cliente
     {
         public int Id_cliente { get; set; }
